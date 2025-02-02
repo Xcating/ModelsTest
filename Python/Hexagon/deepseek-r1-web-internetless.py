@@ -13,7 +13,7 @@ def point_to_segment_distance(p, a, b):
     apy = py - ay
 
     t = (apx * abx + apy * aby) / (abx**2 + aby**2 + 1e-8)
-    t = max(0.0, min(1.0, t))
+    t = max(0.0， min(1.0, t))
 
     closest_x = ax + t * abx
     closest_y = ay + t * aby
